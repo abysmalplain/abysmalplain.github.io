@@ -1,0 +1,13 @@
+// type scale
+$type-scale-ratio: 1.25;
+$type-scale-base: 16px; // scale origin
+
+/* The typeface scales according to a ratio of 1.25. The base font size is 18px. Therefore 1rem = 18px. */
+
+$base-font-size: $type-scale-base;
+$base-line-height: 1.75; // 1.65 * 16px = 
+
+$title-font-size: 2.441rem;
+$section-title-font-size: 1.953rem;
+
+$sub-font-size: .8rem;

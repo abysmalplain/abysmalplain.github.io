@@ -1,0 +1,24 @@
+// mixins
+
+// border-radius
+@mixin border-radius($radius) {
+   -webkit-border-radius: $radius;
+      -moz-border-radius: $radius;
+       -ms-border-radius: $radius;
+           border-radius: $radius;
+}
+
+// transition. default: all 0s ease 0s;
+@mixin transition($property, $duration, $timing-function, $delay) {
+   -webkit-transition: $property $duration $timing-function $delay;
+      -moz-transition: $property $duration $timing-function $delay;
+        -o-transition: $property $duration $timing-function $delay;
+           transition: $property $duration $timing-function $delay;
+}
+
+// box shadow
+@mixin box-shadow($h-offset, $v-offset, $blur-radius, $spread-radius, $color) {
+   -webkit-box-shadow: $h-offset $v-offset $blur-radius $spread-radius $color;
+      -moz-box-shadow: $h-offset $v-offset $blur-radius $spread-radius $color;
+           box-shadow: $h-offset $v-offset $blur-radius $spread-radius $color;
+}

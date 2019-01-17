@@ -1,0 +1,252 @@
+/*------------------------------------*\
+  # BLOCK-LEVEL ELEMENTS
+\*------------------------------------*/
+
+html {
+   font-size: $base-font-size;
+   font-family: $body-font-family;
+   line-height: $base-line-height;
+}
+
+body {
+   background-color: $body-background-color;
+}
+
+main,
+section,
+header,
+footer,
+nav,
+p,
+li {
+   font-size: inherit;
+   font-family: inherit;
+   line-height: inherit;
+}
+
+main {
+   max-width: 50em;
+   margin: 0 0 0 5em;
+   background-color: $text-background-color;
+}
+
+section, header, .creative-commons {
+   margin: 0 0 1rem 0;
+   padding: 2rem;
+   background-color: $white;
+}
+
+aside {
+
+}
+
+.creative-commons {
+   text-align: center;
+   font-size: $sub-font-size;
+}
+
+figure {
+
+}
+
+figcaption {
+
+}
+
+blockquote {
+   margin: 1rem;
+   padding-left: 1rem;
+   border-left: 4px solid $neutral-jade;
+}
+
+hr {
+   margin: 1em 80px;
+   border-color: $neutral-jade;
+   border-width: 2px;
+}
+
+
+
+
+
+
+nav ul {
+   display: flex;
+}
+
+nav li {
+   display: inline-flex;
+   padding: 0 1rem 0 0;
+   list-style: none;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  # HEADINGS
+\*------------------------------------*/
+
+h1,
+h2 {
+   font-family: $header-font-family;
+   font-weight: normal;
+}
+
+h1 {
+   font-size: $title-font-size;
+}
+
+h2 {
+   font-size: $section-title-font-size;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  # INLINE ELEMENTS
+\*------------------------------------*/
+
+code,
+pre,
+kbd,
+samp {
+   font-family: $monospace;
+   font-size: .9375rem;
+}
+
+code {
+   padding: 3px;
+   background-color: $neutral-linen;
+   border-radius: 5px;
+}
+
+pre {
+   padding: 0.8em;
+   white-space: pre-wrap;
+   background-color: $pre-background-color;
+   border: 1px solid $pre-border-color;
+   border-radius: .5em;
+   code {
+      background: none;
+      line-height: 2em;
+  }
+}
+
+cite {
+}
+
+a {
+   text-decoration: none;
+   color: $link-color;
+   border-bottom: 1px solid $link-color;
+   transition: .4s;
+}
+
+a:hover {
+   color: $link-hover-color;
+   border-bottom-color: $link-hover-color;
+}
+
+nav a {
+   border: 0;
+   font-family: $sans-serif;
+   text-transform: capitalize;
+}
+
+
+
+
+
+/*------------------------------------*\
+  # TABLES
+\*------------------------------------*/
+
+table, th, td {
+   font-family: $sans-serif;
+}
+
+table {
+   margin: .5rem auto;
+   width: 100%;
+}
+
+th, td {
+   padding: .1rem .3rem;
+   border: 1px solid gray;
+}
+
+caption {
+   caption-side: bottom;
+   font-family: $sans-serif;
+   font-size: $sub-font-size;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  # FORMS
+\*------------------------------------*/
+
+label {
+   font-family: $sans-serif;
+   font-size: $sub-font-size;
+   color: $form-highlight-color;
+}
+
+fieldset {
+   border-color: $form-highlight-color;
+   border-radius: 5px;
+   padding: 1rem;
+   margin: 1rem 0;
+}
+
+input {
+   margin-bottom: 1rem;
+   padding: 1rem;
+   border-color: $neutral-jade;
+   border-radius: 5px;
+   font-size: inherit;
+}
+
+input:focus {
+   outline: none;
+   border: 1px solid $form-highlight-color;
+}
+
+button {
+   padding: 1rem 3rem;
+   background-color: $button-color;
+   border: 1px solid $form-highlight-color;
+   border-radius: 5px;
+   font-family: $accent-font-family;
+   color: $form-highlight-color;
+   text-transform: uppercase;
+}
+
+button:hover {
+   background-color: $button-hover-color;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  # MEDIA QUERIES
+\*------------------------------------*/
+
+@media (max-width: 22em) {
+   body {
+      font-size: $sub-font-size;
+   }
+}

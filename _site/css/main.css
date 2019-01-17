@@ -1,0 +1,243 @@
+/* The modules directory contains any SCSS that doesn't create any actual CSS output. */
+/* Miscellaneous colour codes. */
+/* The typeface scales according to a ratio of 1.25. The base font size is 18px. Therefore 1rem = 18px. */
+/* Partials are all the components of a webpage broken down into manageable chunks. Organized by HTML element, instead of by page component (i.e. sidebar, footer, etc). */
+/*------------------------------------*\
+  # BLOCK-LEVEL ELEMENTS
+\*------------------------------------*/
+html {
+  font-size: 16px;
+  font-family: "Lora", Georgia, serif;
+  line-height: 1.75; }
+
+body {
+  background-color: #f7f3ea; }
+
+main,
+section,
+header,
+footer,
+nav,
+p,
+li {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit; }
+
+main {
+  max-width: 50em;
+  margin: 0 0 0 5em;
+  background-color: #fbfaf6; }
+
+section, header, .creative-commons {
+  margin: 0 0 1rem 0;
+  padding: 2rem;
+  background-color: #fff; }
+
+.creative-commons {
+  text-align: center;
+  font-size: 0.8rem; }
+
+blockquote {
+  margin: 1rem;
+  padding-left: 1rem;
+  border-left: 4px solid #eae9d9; }
+
+hr {
+  margin: 1em 80px;
+  border-color: #eae9d9;
+  border-width: 2px; }
+
+nav ul {
+  display: flex; }
+
+nav li {
+  display: inline-flex;
+  padding: 0 1rem 0 0;
+  list-style: none; }
+
+/*------------------------------------*\
+  # HEADINGS
+\*------------------------------------*/
+h1,
+h2 {
+  font-family: "Abhaya Libre", serif;
+  font-weight: normal; }
+
+h1 {
+  font-size: 2.441rem; }
+
+h2 {
+  font-size: 1.953rem; }
+
+/*------------------------------------*\
+  # INLINE ELEMENTS
+\*------------------------------------*/
+code,
+pre,
+kbd,
+samp {
+  font-family: "Fira Mono", Courier, monospace;
+  font-size: .9375rem; }
+
+code {
+  padding: 3px;
+  background-color: #f7f3ea;
+  border-radius: 5px; }
+
+pre {
+  padding: 0.8em;
+  white-space: pre-wrap;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: .5em; }
+  pre code {
+    background: none;
+    line-height: 2em; }
+
+a {
+  text-decoration: none;
+  color: #df5d4e;
+  border-bottom: 1px solid #df5d4e;
+  transition: .4s; }
+
+a:hover {
+  color: #c6644d;
+  border-bottom-color: #c6644d; }
+
+nav a {
+  border: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: capitalize; }
+
+/*------------------------------------*\
+  # TABLES
+\*------------------------------------*/
+table, th, td {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif; }
+
+table {
+  margin: .5rem auto;
+  width: 100%; }
+
+th, td {
+  padding: .1rem .3rem;
+  border: 1px solid gray; }
+
+caption {
+  caption-side: bottom;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.8rem; }
+
+/*------------------------------------*\
+  # FORMS
+\*------------------------------------*/
+label {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #c1a14d; }
+
+fieldset {
+  border-color: #c1a14d;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0; }
+
+input {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-color: #eae9d9;
+  border-radius: 5px;
+  font-size: inherit; }
+
+input:focus {
+  outline: none;
+  border: 1px solid #c1a14d; }
+
+button {
+  padding: 1rem 3rem;
+  background-color: #fbfaf6;
+  border: 1px solid #c1a14d;
+  border-radius: 5px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  color: #c1a14d;
+  text-transform: uppercase; }
+
+button:hover {
+  background-color: #f7f3ea; }
+
+/*------------------------------------*\
+  # MEDIA QUERIES
+\*------------------------------------*/
+@media (max-width: 22em) {
+  body {
+    font-size: 0.8rem; } }
+/* @import "partials/buttons";
+@import "partials/figures";
+@import "partials/forms";
+@import "partials/grid";
+@import "partials/links";
+@import "partials/menu";
+@import "partials/queries"; */
+/*------------------------------------*\
+  # BLOCK-LEVEL ELEMENTS
+\*------------------------------------*/
+/* Correct box-sizing in IE. Hard reset on all spacing. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/* Reset margins of body to 0 to get rid of 8px default in all browsers. */
+body {
+  margin: 0; }
+
+/* Render main as block element in IE instead of unspecified in any browser. */
+main {
+  display: block; }
+
+/* Get rid of the ugly inset border on <hr> elements in several (all?) browsers. */
+hr {
+  border-style: solid; }
+
+/*------------------------------------*\
+  # INLINE ELEMENTS
+\*------------------------------------*/
+/* Get rid of border on linked images in IE. */
+img {
+  border: 0; }
+
+/* Correct line-height of <sub> and <sup> so they don't disrupt the spacing of adjacent lines. This overrides Mozilla default. */
+sup,
+sub {
+  line-height: 0; }
+
+/*------------------------------------*\
+  # TABLES
+\*------------------------------------*/
+/* Simplify table borders. */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th {
+  text-align: center; }
+
+/*------------------------------------*\
+  # FORMS
+\*------------------------------------*/
+/* Position input labels over input area for easier parsing. */
+label {
+  display: block; }
+
+/* Get rid of more ugly inset border styles. */
+fieldset {
+  border-style: solid;
+  border-width: 1px; }
+
+input {
+  border-style: solid;
+  border-width: 1px; }
+
+/* @import "partials/tables"; */
+/* Any third party SCSS is imported here. */
