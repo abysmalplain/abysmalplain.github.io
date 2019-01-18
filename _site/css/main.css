@@ -1,17 +1,40 @@
 /* The modules directory contains any SCSS that doesn't create any actual CSS output. */
 /* Miscellaneous colour codes. */
-/* The typeface scales according to a ratio of 1.25. The base font size is 18px. Therefore 1rem = 18px. */
+/* Origin of type scale. */
+/* The default browser font-size is 16px, but setting it as a percentage means it will scale according to the size the user has set the text to. */
+/* Styles for main body text. */
+/* 100% of 16px; 1rem = 16px. */
+/* 1.75 * 16px = 28px as the default line height, but again, it will scale according to the user's settings. */
+/*$med-font-size:
+$med-line-height:
+
+$small-font-size: .8rem; // 12.8px
+$small-line-height: */
+/* Increments : 2.5rem=40px, 2rem=32px, 1.75rem=28px
+
+Margins required to make a multiple of the $vertical-rhythm-base (28px):
+
+   FONT SIZE      PIXELS      NEAREST MULTIPLE          REMS
+   3rem           48px        56px (8px away)           .5rem
+   2.5rem         40px        56px                      1rem
+
+28
+   42
+56
+   60
+84
+*/
 /* Partials are all the components of a webpage broken down into manageable chunks. Organized by HTML element, instead of by page component (i.e. sidebar, footer, etc). */
 /*------------------------------------*\
   # BLOCK-LEVEL ELEMENTS
 \*------------------------------------*/
 html {
-  font-size: 16px;
+  font-size: 100%;
   font-family: "Lora", Georgia, serif;
   line-height: 1.75; }
 
 body {
-  background-color: #f7f3ea; }
+  background: #f7f3ea; }
 
 main,
 section,
@@ -26,12 +49,13 @@ li {
 
 main {
   max-width: 50em;
-  margin: 0 0 0 5em;
-  background-color: #fbfaf6; }
+  margin: 0 0 0 5rem; }
+
+nav {
+  margin: 0 0 2.25rem 0; }
 
 section, header, .creative-commons {
-  margin: 0 0 1rem 0;
-  padding: 2rem;
+  padding: 1.75rem;
   background-color: #fff; }
 
 .creative-commons {
@@ -39,21 +63,21 @@ section, header, .creative-commons {
   font-size: 0.8rem; }
 
 blockquote {
-  margin: 1rem;
+  margin: 1.75rem 1rem 2rem 1rem;
   padding-left: 1rem;
   border-left: 4px solid #eae9d9; }
 
 hr {
-  margin: 1em 80px;
+  margin: .75rem 4rem;
   border-color: #eae9d9;
   border-width: 2px; }
 
 nav ul {
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
 
 nav li {
   display: inline-flex;
-  padding: 0 1rem 0 0;
   list-style: none; }
 
 /*------------------------------------*\
@@ -61,14 +85,18 @@ nav li {
 \*------------------------------------*/
 h1,
 h2 {
-  font-family: "Abhaya Libre", serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: normal; }
 
 h1 {
-  font-size: 2.441rem; }
+  font-size: 3rem;
+  line-height: 1.75;
+  margin: 1.5rem 0 .75rem 0; }
 
 h2 {
-  font-size: 1.953rem; }
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem; }
 
 /*------------------------------------*\
   # INLINE ELEMENTS
@@ -86,8 +114,9 @@ code {
   border-radius: 5px; }
 
 pre {
-  padding: 0.8em;
   white-space: pre-wrap;
+  margin: .75rem 6px 1.5rem 6px;
+  padding: 1rem;
   background-color: #f9f9f9;
   border: 1px solid #eee;
   border-radius: .5em; }
@@ -117,11 +146,9 @@ table, th, td {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif; }
 
 table {
-  margin: .5rem auto;
-  width: 100%; }
+  margin: 0 auto; }
 
 th, td {
-  padding: .1rem .3rem;
   border: 1px solid gray; }
 
 caption {
@@ -138,24 +165,25 @@ label {
   color: #c1a14d; }
 
 fieldset {
+  margin: 1.75rem 0;
+  padding: 1.75rem;
   border-color: #c1a14d;
-  border-radius: 5px;
-  padding: 1rem;
-  margin: 1rem 0; }
+  border-radius: 5px; }
 
 input {
-  margin-bottom: 1rem;
-  padding: 1rem;
+  padding: .875rem;
   border-color: #eae9d9;
   border-radius: 5px;
-  font-size: inherit; }
+  font-size: inherit;
+  line-height: inherit; }
 
 input:focus {
   outline: none;
   border: 1px solid #c1a14d; }
 
 button {
-  padding: 1rem 3rem;
+  margin-top: 1.75rem;
+  padding: .75rem 3rem;
   background-color: #fbfaf6;
   border: 1px solid #c1a14d;
   border-radius: 5px;
@@ -169,7 +197,7 @@ button:hover {
 /*------------------------------------*\
   # MEDIA QUERIES
 \*------------------------------------*/
-@media (max-width: 22em) {
+@media (max-width: 33em) {
   body {
     font-size: 0.8rem; } }
 /* @import "partials/buttons";
