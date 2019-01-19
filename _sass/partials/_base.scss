@@ -1,259 +1,27 @@
-/*------------------------------------*\
-  # BLOCK-LEVEL ELEMENTS
-\*------------------------------------*/
+// css
 
 html {
-   font-size: $base-font-size;
+   font-size: 100%;
    font-family: $body-font-family;
-   line-height: $base-line-height;
+   line-height: 1.6rem;
 }
 
 body {
-   background: $body-background-color; // url("grid.png");
-}
-
-main,
-section,
-header,
-footer,
-nav,
-p,
-li {
-   font-size: inherit;
-   font-family: inherit;
-   line-height: inherit;
+   background-color: $body-background-color;
 }
 
 main {
-   max-width: $main-max-width;
-   margin: 0 0 0 $main-margin-left;
-//   background-color: $text-background-color;
+   max-width: 55rem;
+   margin: 0 auto 0 7rem;
+   padding: 1rem 3rem;
+   background-color: $text-background-color;
 }
 
 nav {
-   margin: 0 0 2.25rem 0;
-}
-
-section, header, .creative-commons {
-   padding: 1.75rem;
-//   background-color: $white;
-}
-
-aside {
-
-}
-
-.creative-commons {
-   text-align: center;
-   font-size: $sub-font-size;
-}
-
-figure {
-
-}
-
-figcaption {
-
-}
-
-blockquote {
-   margin: 1.75rem 1rem 2rem 1rem;
-   padding-left: 1rem;
-   border-left: 4px solid $neutral-jade;
-}
-
-hr {
-   margin: .75rem 4rem;
-   border-color: $neutral-jade;
-   border-width: 2px;
-}
-
-
-
-
-
-
-nav ul {
    display: flex;
-   justify-content: space-around;
 }
 
 nav li {
    display: inline-flex;
    list-style: none;
-}
-
-
-
-
-
-
-/*------------------------------------*\
-  # HEADINGS
-\*------------------------------------*/
-
-h1,
-h2 {
-   font-family: $header-font-family;
-   font-weight: normal;
-}
-
-h1 {
-   font-size: $title-font-size;
-   line-height: $title-line-height;
-   margin: 1.5rem 0 .75rem 0; // single use
-}
-
-h2 {
-   font-size: $section-title-font-size;
-   margin-top: 3rem;
-   margin-bottom: 1.25rem;
-}
-
-
-
-
-
-
-/*------------------------------------*\
-  # INLINE ELEMENTS
-\*------------------------------------*/
-
-code,
-pre,
-kbd,
-samp {
-   font-family: $monospace;
-   font-size: .9375rem;
-}
-
-code {
-   padding: 3px;
-   background-color: $neutral-linen;
-   border-radius: 5px;
-}
-
-pre {
-   white-space: pre-wrap;
-   margin: .75rem 6px 1.5rem 6px;
-   padding: 1rem;
-   background-color: $pre-background-color;
-   border: 1px solid $pre-border-color;
-   border-radius: .5em;
-   code {
-      background: none;
-      line-height: 2em;
-  }
-}
-
-cite {
-}
-
-a {
-   text-decoration: none;
-   color: $link-color;
-   border-bottom: 1px solid $link-color;
-   transition: .4s;
-}
-
-a:hover {
-   color: $link-hover-color;
-   border-bottom-color: $link-hover-color;
-}
-
-nav a {
-   border: 0;
-   font-family: $sans-serif;
-   text-transform: capitalize;
-}
-
-
-
-
-
-/*------------------------------------*\
-  # TABLES
-\*------------------------------------*/
-
-table, th, td {
-   font-family: $sans-serif;
-}
-
-table {
-   margin: 0 auto;
-}
-
-th, td {
-   border: 1px solid gray;
-}
-
-caption {
-   caption-side: bottom;
-   font-family: $sans-serif;
-   font-size: $sub-font-size;
-}
-
-
-
-
-
-
-/*------------------------------------*\
-  # FORMS
-\*------------------------------------*/
-
-label {
-   font-family: $sans-serif;
-   font-size: $sub-font-size;
-   color: $form-highlight-color;
-}
-
-fieldset {
-   margin: 1.75rem 0;
-   padding: 1.75rem;
-   border-color: $form-highlight-color;
-   border-radius: 5px;
-}
-
-input {
-   padding: .875rem;
-   border-color: $neutral-jade;
-   border-radius: 5px;
-   font-size: inherit;
-   line-height: inherit;
-}
-
-input:focus {
-   outline: none;
-   border: 1px solid $form-highlight-color;
-}
-
-button {
-   margin-top: 1.75rem;
-   padding: .75rem 3rem;
-   background-color: $button-color;
-   border: 1px solid $form-highlight-color;
-   border-radius: 5px;
-   font-family: $accent-font-family;
-   color: $form-highlight-color;
-   text-transform: uppercase;
-}
-
-button:hover {
-   background-color: $button-hover-color;
-}
-
-
-
-
-
-
-/*------------------------------------*\
-  # MEDIA QUERIES
-\*------------------------------------*/
-
-@media (max-width: 33em) {
-   body {
-      font-size: $sub-font-size;
-   }
 }

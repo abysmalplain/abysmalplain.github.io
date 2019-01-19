@@ -1,0 +1,97 @@
+/* The modules directory contains any SCSS that doesn't create any actual CSS output. */
+/* Miscellaneous colour codes. */
+/* Partials are all the components of a webpage broken down into manageable chunks. Organized by HTML element, instead of by page component (i.e. sidebar, footer, etc). */
+html {
+  font-size: 100%;
+  font-family: Georgia, serif;
+  line-height: 1.6rem; }
+
+body {
+  background-color: #f7f3ea; }
+
+main {
+  max-width: 55rem;
+  margin: 0 auto 0 7rem;
+  padding: 1rem 3rem;
+  background-color: #fbfaf6; }
+
+nav {
+  display: flex; }
+
+nav li {
+  display: inline-flex;
+  list-style: none; }
+
+h1,
+h2,
+h3 {
+  font-family: "Abhaya Libre", Georgia, serif;
+  font-weight: normal; }
+
+a, a:visited {
+  color: #df5d4e;
+  transition: .4s; }
+
+a:hover {
+  color: #c6644d; }
+
+/*------------------------------------*\
+  # BLOCK-LEVEL ELEMENTS
+\*------------------------------------*/
+/* Correct box-sizing in IE. Hard reset on all spacing. */
+* {
+  box-sizing: border-box; }
+
+/* Reset margins of body to 0 to get rid of 8px default in all browsers. */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* Render main as block element in IE instead of unspecified in any browser. */
+main {
+  display: block; }
+
+/* Get rid of the ugly inset border on <hr> elements in several (all?) browsers. */
+hr {
+  border-style: solid; }
+
+/*------------------------------------*\
+  # INLINE ELEMENTS
+\*------------------------------------*/
+/* Get rid of border on linked images in IE. */
+img {
+  border: 0; }
+
+/* Correct line-height of <sub> and <sup> so they don't disrupt the spacing of adjacent lines. This overrides Mozilla default. */
+sup,
+sub {
+  line-height: 0; }
+
+/*------------------------------------*\
+  # TABLES
+\*------------------------------------*/
+/* Simplify table borders. */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th {
+  text-align: center; }
+
+/*------------------------------------*\
+  # FORMS
+\*------------------------------------*/
+/* Position input labels over input area for easier parsing. */
+label {
+  display: block; }
+
+/* Get rid of more ugly inset border styles. */
+fieldset {
+  border-style: solid;
+  border-width: 1px; }
+
+input {
+  border-style: solid;
+  border-width: 1px; }
+
+/* Any third party SCSS is imported here. */

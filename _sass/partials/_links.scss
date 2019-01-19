@@ -1,0 +1,10 @@
+// link styling
+
+a, a:visited {
+   color: $link-color;
+   transition: .4s;
+}
+
+a:hover {
+   color: $link-hover-color;
+}

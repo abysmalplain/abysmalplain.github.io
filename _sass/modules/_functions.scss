@@ -1,7 +1,0 @@
-@function calc-small-text($size, $ratio) {
-   @return $size / $ratio;
-}
-
-@function calc-large-text($size, $ratio) {
-   @return $size * $ratio;
-}

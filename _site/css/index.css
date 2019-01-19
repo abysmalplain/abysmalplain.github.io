@@ -1,9 +1,22 @@
 /* Miscellaneous colour codes. */
+a, a:visited {
+  color: #df5d4e;
+  transition: .4s; }
+
+a:hover {
+  color: #c6644d; }
+
+h1,
+h2,
+h3 {
+  font-family: "Abhaya Libre", Georgia, serif;
+  font-weight: normal; }
+
 body {
   background-color: #f7f3ea;
   font-size: 100%;
   line-height: 1.75rem;
-  font-family: "Noto Serif", Georgia, serif; }
+  font-family: Georgia, serif; }
 
 main {
   max-width: 33rem;
@@ -14,5 +27,6 @@ dd {
   margin-bottom: 1rem; }
 
 footer {
+  margin-top: 5rem;
   font-size: .8rem;
   text-align: center; }

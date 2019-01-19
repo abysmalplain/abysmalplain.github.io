@@ -12,13 +12,14 @@
 /* Correct box-sizing in IE. Hard reset on all spacing. */
 * {
    box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+//   margin: 0;
+//   padding: 0;
 }
 
 /* Reset margins of body to 0 to get rid of 8px default in all browsers. */
 body {
    margin: 0;
+   padding: 0;
 }
 
 /* Render main as block element in IE instead of unspecified in any browser. */

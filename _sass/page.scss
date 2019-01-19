@@ -1,21 +1,20 @@
 /* The modules directory contains any SCSS that doesn't create any actual CSS output. */
 @import "modules/colors";
 @import "modules/fonts";
-@import "modules/functions";
 @import "modules/mixins";
-@import "modules/typescale";
 
 /* Partials are all the components of a webpage broken down into manageable chunks. Organized by HTML element, instead of by page component (i.e. sidebar, footer, etc). */
 @import "partials/base";
-/* @import "partials/buttons";
-@import "partials/figures";
-@import "partials/forms";
-@import "partials/grid";
+// @import "partials/buttons";
+// @import "partials/figures";
+// @import "partials/forms";
+// @import "partials/grid";
+@import "partials/headings";
 @import "partials/links";
-@import "partials/menu";
-@import "partials/queries"; */
+// @import "partials/menu";
+// @import "partials/queries";
 @import "partials/reset";
-/* @import "partials/tables"; */
+// @import "partials/tables";
 
 /* Any third party SCSS is imported here. */
-@import "vendor/plumber";
+// @import "vendor/plumber";
