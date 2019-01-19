@@ -1,9 +1,9 @@
 # site setting variables
 # all of these can be accessed by {{ site.variable }}
-title: abysmalplain
+title: etrog emoji
 email:
 description: >
-  A guide for the perplexed worldbuilder.
+  a real jackdaw.
 baseurl: "" # defines subpath ie /path/, does not include hostname
 url: "https://abysmalplain.github.io"
 twitter_username:

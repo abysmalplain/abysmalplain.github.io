@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: worldbuilding
 permalink: /worldbuilding/
 ---
@@ -37,7 +37,11 @@ Other stuff: biochemistry and the smallest building blocks of life, metabolism, 
 
 Some more stuff on life, such as the evolution of eyes, colour vision, sex systems. Plants vs animals vs fungi vs bacteria vs archaea. Viruses. Nutrition.
 
-The evolution of language. Vocalization in different animals: humans, other primates, whales, other cetaceans, other mammals, frogs, birds
+## language
+
+Anatomy of the human vocal tract. Language and the brain.
+
+The evolution of language. Vocalization in different animals: humans, other primates, whales, other cetaceans, other mammals, frogs, birds.
 
 ## culture
 I won't be doing guides for culture building per se, for a couple of reasons: one being that there is no formula you can compute to build a society, and the other being that I don't want to give away all my best ideas. However, I do have some notes on science-y things that a society might engage in. Astrometry. Music.
