@@ -1,0 +1,18 @@
+/* Miscellaneous colour codes. */
+body {
+  background-color: #f7f3ea;
+  font-size: 100%;
+  line-height: 1.75rem;
+  font-family: "Noto Serif", Georgia, serif; }
+
+main {
+  max-width: 33rem;
+  margin: 7% auto 0 auto; }
+
+dd {
+  margin-left: 0;
+  margin-bottom: 1rem; }
+
+footer {
+  font-size: .8rem;
+  text-align: center; }
