@@ -6,6 +6,7 @@
 /* Partials are all the components of a webpage broken down into manageable chunks. Organized by HTML element, instead of by page component (i.e. sidebar, footer, etc). */
 @import "partials/base";
 // @import "partials/buttons";
+@import "partials/cc-footer";
 // @import "partials/figures";
 // @import "partials/forms";
 // @import "partials/grid";
@@ -14,7 +15,7 @@
 // @import "partials/menu";
 // @import "partials/queries";
 @import "partials/reset";
-// @import "partials/tables";
+@import "partials/tables";
 
 /* Any third party SCSS is imported here. */
 // @import "vendor/plumber";

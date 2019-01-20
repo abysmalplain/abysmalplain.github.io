@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  # TABLES
+\*------------------------------------*/
+
+table, th, td {
+   font-family: $sans-serif;
+}
+
+table {
+   margin: 0 auto;
+}
+
+th, td {
+   border: 1px solid gray;
+}
+
+caption {
+   caption-side: bottom;
+   font-family: $sans-serif;
+   font-size: $sub-font-size;
+}

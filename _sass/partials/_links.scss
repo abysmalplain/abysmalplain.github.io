@@ -1,10 +1,20 @@
-// link styling
+/*------------------------------------*\
+  # LINKS
+\*------------------------------------*/
 
-a, a:visited {
+a,
+a:active,
+a:visited {
    color: $link-color;
    transition: .4s;
 }
 
 a:hover {
    color: $link-hover-color;
+}
+
+nav a {
+   font-family: $nav-link-font-family;
+   font-size: $nav-link-font-size;
+   text-decoration: none;
 }

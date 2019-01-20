@@ -1,28 +1,17 @@
 @import
    "modules/colors",
    "modules/fonts",
+   "partials/base",
    "partials/links",
-   "partials/headings";
-
-body {
-   background-color: $body-background-color;
-   font-size: 100%;
-   line-height: 1.75rem;
-   font-family: $serif;
-}
+   "partials/headings",
+   "partials/cc-footer";
 
 main {
    max-width: 33rem;
-   margin: 7% auto 0 auto;
+   margin: 7% auto;
 }
 
 dd {
    margin-left: 0;
    margin-bottom: 1rem;
-}
-
-footer {
-   margin-top: 5rem;
-   font-size: .8rem;
-   text-align: center;
 }

@@ -1,32 +1,119 @@
+/*------------------------------------*\
+  # COLOUR SCHEME
+\*------------------------------------*/
+/*------------------------------------*\
+  # USE THESE VARIABLES
+\*------------------------------------*/
 /* Miscellaneous colour codes. */
-a, a:visited {
-  color: #df5d4e;
+/*------------------------------------*\
+  # FONTS
+\*------------------------------------*/
+/*------------------------------------*\
+  # FONT-FAMILY values
+\*------------------------------------*/
+/*------------------------------------*\
+  # FONT-SIZE values
+\*------------------------------------*/
+html {
+  font-size: 100%;
+  font-family: Georgia, serif;
+  line-height: 1.6rem;
+  color: #1c1d1e; }
+
+body {
+  background-color: #f7f3ea; }
+
+main {
+  max-width: 55rem;
+  margin: 0 auto 0 7rem;
+  padding: 1rem 3rem;
+  background-color: #fbfaf6; }
+
+nav {
+  display: flex; }
+
+nav ul {
+  padding-left: 0; }
+
+nav li {
+  display: inline-flex;
+  padding-right: 1rem;
+  list-style: none;
+  text-transform: capitalize; }
+
+code,
+pre,
+kbd,
+samp {
+  font-family: "Inconsolata", Courier, monospace;
+  font-size: 0.8rem; }
+
+code {
+  padding: 3px;
+  background-color: #f7f3ea;
+  border-radius: 5px; }
+
+pre {
+  white-space: pre-wrap;
+  margin: .75rem 6px 1.5rem 6px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: .5em; }
+  pre code {
+    background: none;
+    line-height: 2em; }
+
+/*------------------------------------*\
+  # LINKS
+\*------------------------------------*/
+a,
+a:active,
+a:visited {
+  color: #82733c;
   transition: .4s; }
 
 a:hover {
-  color: #c6644d; }
+  color: #c4ac28; }
 
+nav a {
+  font-family: "Abhaya Libre", Georgia, serif;
+  font-size: 1.25rem;
+  text-decoration: none; }
+
+/*------------------------------------*\
+  # HEADINGS
+\*------------------------------------*/
 h1,
 h2,
 h3 {
   font-family: "Abhaya Libre", Georgia, serif;
   font-weight: normal; }
 
-body {
-  background-color: #f7f3ea;
-  font-size: 100%;
-  line-height: 1.75rem;
-  font-family: Georgia, serif; }
+h1,
+h2 {
+  margin-top: 4rem; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  margin-top: 4rem;
+  font-size: 2.4rem; }
+
+h3 {
+  font-size: 1.563rem; }
+
+.creative-commons {
+  display: flex;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 0.8rem; }
 
 main {
   max-width: 33rem;
-  margin: 7% auto 0 auto; }
+  margin: 7% auto; }
 
 dd {
   margin-left: 0;
   margin-bottom: 1rem; }
-
-footer {
-  margin-top: 5rem;
-  font-size: .8rem;
-  text-align: center; }

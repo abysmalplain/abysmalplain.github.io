@@ -1,9 +1,10 @@
 // css
 
 html {
-   font-size: 100%;
+   font-size: $body-font-size;
    font-family: $body-font-family;
    line-height: 1.6rem;
+   color: $body-text-colour;
 }
 
 body {
@@ -21,7 +22,43 @@ nav {
    display: flex;
 }
 
+nav ul {
+   padding-left: 0;
+}
+
 nav li {
    display: inline-flex;
+   padding-right: 1rem;
    list-style: none;
+   text-transform: capitalize;
+}
+
+code,
+pre,
+kbd,
+samp {
+   font-family: $monospace;
+   font-size: $sub-font-size;
+}
+
+code {
+   padding: 3px;
+   background-color: $code-background-color;
+   border-radius: 5px;
+}
+
+pre {
+   white-space: pre-wrap;
+   margin: .75rem 6px 1.5rem 6px;
+   padding: 1rem;
+   background-color: $pre-background-color;
+   border: 1px solid $pre-border-color;
+   border-radius: .5em;
+   code {
+      background: none;
+      line-height: 2em;
+  }
+}
+
+cite {
 }

@@ -1,10 +1,26 @@
 /* The modules directory contains any SCSS that doesn't create any actual CSS output. */
+/*------------------------------------*\
+  # COLOUR SCHEME
+\*------------------------------------*/
+/*------------------------------------*\
+  # USE THESE VARIABLES
+\*------------------------------------*/
 /* Miscellaneous colour codes. */
+/*------------------------------------*\
+  # FONTS
+\*------------------------------------*/
+/*------------------------------------*\
+  # FONT-FAMILY values
+\*------------------------------------*/
+/*------------------------------------*\
+  # FONT-SIZE values
+\*------------------------------------*/
 /* Partials are all the components of a webpage broken down into manageable chunks. Organized by HTML element, instead of by page component (i.e. sidebar, footer, etc). */
 html {
   font-size: 100%;
   font-family: Georgia, serif;
-  line-height: 1.6rem; }
+  line-height: 1.6rem;
+  color: #1c1d1e; }
 
 body {
   background-color: #f7f3ea; }
@@ -18,22 +34,83 @@ main {
 nav {
   display: flex; }
 
+nav ul {
+  padding-left: 0; }
+
 nav li {
   display: inline-flex;
-  list-style: none; }
+  padding-right: 1rem;
+  list-style: none;
+  text-transform: capitalize; }
 
+code,
+pre,
+kbd,
+samp {
+  font-family: "Inconsolata", Courier, monospace;
+  font-size: 0.8rem; }
+
+code {
+  padding: 3px;
+  background-color: #f7f3ea;
+  border-radius: 5px; }
+
+pre {
+  white-space: pre-wrap;
+  margin: .75rem 6px 1.5rem 6px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: .5em; }
+  pre code {
+    background: none;
+    line-height: 2em; }
+
+.creative-commons {
+  display: flex;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 0.8rem; }
+
+/*------------------------------------*\
+  # HEADINGS
+\*------------------------------------*/
 h1,
 h2,
 h3 {
   font-family: "Abhaya Libre", Georgia, serif;
   font-weight: normal; }
 
-a, a:visited {
-  color: #df5d4e;
+h1,
+h2 {
+  margin-top: 4rem; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  margin-top: 4rem;
+  font-size: 2.4rem; }
+
+h3 {
+  font-size: 1.563rem; }
+
+/*------------------------------------*\
+  # LINKS
+\*------------------------------------*/
+a,
+a:active,
+a:visited {
+  color: #82733c;
   transition: .4s; }
 
 a:hover {
-  color: #c6644d; }
+  color: #c4ac28; }
+
+nav a {
+  font-family: "Abhaya Libre", Georgia, serif;
+  font-size: 1.25rem;
+  text-decoration: none; }
 
 /*------------------------------------*\
   # BLOCK-LEVEL ELEMENTS
@@ -93,5 +170,22 @@ fieldset {
 input {
   border-style: solid;
   border-width: 1px; }
+
+/*------------------------------------*\
+  # TABLES
+\*------------------------------------*/
+table, th, td {
+  font-family: "Helvetica Neue", Helvetica, sans-serif; }
+
+table {
+  margin: 0 auto; }
+
+th, td {
+  border: 1px solid gray; }
+
+caption {
+  caption-side: bottom;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.8rem; }
 
 /* Any third party SCSS is imported here. */

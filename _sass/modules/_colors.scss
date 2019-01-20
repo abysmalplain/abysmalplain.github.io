@@ -1,11 +1,14 @@
-// global color values
+/*------------------------------------*\
+  # COLOUR SCHEME
+\*------------------------------------*/
+
 $white: #fff;
 
-$red-desaturated: #c6644d;
-$red-vivid: #df5d4e;
+$red-desaturated: #994040;
+$red-vivid: #bc1a29;
 
 $green-desaturated: #82733c;
-$green-bright-olive: #b29e4d;
+$green-bright-olive: #c4ac28;
 
 $yellow-mustard: #dea23c;
 $gold-desaturated: #c1a14d;
@@ -16,15 +19,19 @@ $neutral-jade: #eae9d9;
 $neutral-dark-green: #3c3510;
 $neutral-dark-gray: #1c1d1e;
 
-//
+/*------------------------------------*\
+  # USE THESE VARIABLES
+\*------------------------------------*/
+
 $body-background-color: $neutral-linen;
 $text-background-color: $neutral-offwhite;
 
 $body-text-colour: $neutral-dark-gray;
 
-$link-color: $red-vivid;
-$link-hover-color: $red-desaturated;
+$link-color: $green-desaturated;
+$link-hover-color: $green-bright-olive;
 
+$code-background-color: $neutral-linen;
 $pre-background-color: #f9f9f9;
 $pre-border-color: #eee;
 

@@ -1,13 +1,31 @@
-// fonts
+/*------------------------------------*\
+  # FONTS
+\*------------------------------------*/
 
 $serif: Georgia, serif;
 $sans-serif: "Helvetica Neue", Helvetica, sans-serif;
-$monospace: "Fira Mono", Courier, monospace;
+$monospace: "Inconsolata", Courier, monospace;
 $display: "Abhaya Libre", Georgia, serif;
 
-//
+/*------------------------------------*\
+  # FONT-FAMILY values
+\*------------------------------------*/
+
 $body-font-family: $serif;
 $header-font-family: $display;
 
+$nav-link-font-family: $display;
+
 $accent-font-family: $sans-serif;
 $utility-font-family: $monospace;
+
+/*------------------------------------*\
+  # FONT-SIZE values
+\*------------------------------------*/
+
+$body-font-size: 100%;
+$h1-font-size: 3rem;
+$h2-font-size: 2.4rem;
+$h3-font-size: 1.563rem;
+$nav-link-font-size: 1.25rem;
+$sub-font-size: .8rem;
