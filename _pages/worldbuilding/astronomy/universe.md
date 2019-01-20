@@ -1,6 +1,6 @@
 ---
 layout: page
-title: worldbuilding | the universe
+title: the universe : worldbuilding
 permalink: /worldbuilding/astronomy/universe/
 ---
 

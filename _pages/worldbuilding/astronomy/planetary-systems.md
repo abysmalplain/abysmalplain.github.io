@@ -1,6 +1,6 @@
 ---
 layout: page
-title: worldbuilding | planetary systems
+title: planetary systems : worldbuilding
 permalink: /worldbuilding/astronomy/planetary-systems/
 ---
 

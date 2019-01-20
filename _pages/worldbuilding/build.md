@@ -1,6 +1,6 @@
 ---
 layout: page
-title: worldbuilding | build it!
+title: build it! : worldbuilding
 permalink: /worldbuilding/build/
 ---
 

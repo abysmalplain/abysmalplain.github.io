@@ -1,6 +1,6 @@
 ---
 layout: page
-title: worldbuilding | language
+title: language : worldbuilding
 permalink: /worldbuilding/language/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: worldbuilding | basics
+title: basics : worldbuilding appendices
 permalink: /worldbuilding/appendices/basics/
 ---
 

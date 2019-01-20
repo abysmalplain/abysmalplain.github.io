@@ -3,6 +3,7 @@ layout: default
 title: worldbuilding
 permalink: /worldbuilding/
 ---
+# worldbuilding
 
 Up front I will say that most of the information here is with an eye towards terrestrial worldbuilding. I do plan to add sections on, say, the atmospheric conditions of gas giants, but earthlike planets are where most of my interest and therefore most of my knowledge lie so for now, that's what's here.
 

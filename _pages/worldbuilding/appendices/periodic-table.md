@@ -1,6 +1,6 @@
 ---
 layout: page
-title: worldbuilding | appendix | the periodic table
+title: periodic table : worldbuilding appendices
 permalink: /worldbuilding/appendices/periodic-table/
 ---
 
