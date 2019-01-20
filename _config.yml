@@ -4,10 +4,10 @@ title: etrog emoji
 email:
 description: >
   a real jackdaw.
-baseurl: "" # defines subpath ie /path/, does not include hostname
+baseurl: "" # defines subpath ie /path/; does not include hostname
 url: "https://abysmalplain.github.io"
 twitter_username:
-github_username:
+github_username: abysmalplain
 
 # build settings. i borrowed these from https://www.taniarascia.com/make-a-static-website-with-jekyll/
 sass:

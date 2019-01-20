@@ -21,7 +21,8 @@ html, p {
   color: #1c1d1e; }
   @media (max-width: 599px) {
     html, p {
-      font-size: 13px; } }
+      font-size: 13px;
+      line-height: 1.6; } }
 
 body {
   background-color: #f7f3ea; }
@@ -30,7 +31,7 @@ main {
   background-color: #fbfaf6; }
   @media (max-width: 599px) {
     main {
-      padding: 0 .5rem; } }
+      padding: .25rem 1.5rem; } }
   @media (min-width: 600px) and (max-width: 899px) {
     main {
       max-width: 45rem;
@@ -40,7 +41,7 @@ main {
     main {
       max-width: 40rem;
       margin: 0 auto 0 7rem;
-      padding: .5rem 1rem; } }
+      padding: 1rem 3rem; } }
   @media (min-width: 1200px) {
     main {
       max-width: 55rem;
