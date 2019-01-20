@@ -2,6 +2,8 @@
 @import "modules/colors";
 @import "modules/fonts";
 @import "modules/mixins";
+@import "modules/media-queries";
+
 
 /* Partials are all the components of a webpage broken down into manageable chunks. Organized by HTML element, instead of by page component (i.e. sidebar, footer, etc). */
 @import "partials/base";

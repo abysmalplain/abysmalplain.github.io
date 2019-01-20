@@ -16,13 +16,19 @@ h2 {
 
 h1 {
    font-size: $h1-font-size;
+   @include for-phone-only {
+   }
 }
 
 h2 {
    margin-top: 4rem;
    font-size: $h2-font-size;
+   @include for-phone-only {
+   }
 }
 
 h3 {
    font-size: $h3-font-size;
+   @include for-phone-only {
+   }
 }
