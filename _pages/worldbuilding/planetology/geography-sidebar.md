@@ -1,6 +1,6 @@
 ---
 layout: page
-title: geography : worldbuilding
+title: geography | worldbuilding
 permalink: /worldbuilding/planetology/geography/sidebar/
 ---
 

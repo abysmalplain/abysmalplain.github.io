@@ -1,6 +1,6 @@
 ---
 layout: page
-title: geosphere : worldbuilding
+title: geosphere | worldbuilding
 permalink: /worldbuilding/planetology/geosphere/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: climate : worldbuilding
+title: climate | worldbuilding
 permalink: /worldbuilding/planetology/climate/
 ---
 

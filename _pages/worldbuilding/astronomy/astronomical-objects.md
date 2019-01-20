@@ -1,6 +1,6 @@
 ---
 layout: page
-title: astronomical objects : worldbuilding
+title: astronomical objects | worldbuilding
 permalink: /worldbuilding/astronomy/objects/
 ---
 

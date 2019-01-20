@@ -1,6 +1,6 @@
 ---
 layout: page
-title: life : worldbuilding
+title: life | worldbuilding
 permalink: /worldbuilding/biology/life/
 ---
 

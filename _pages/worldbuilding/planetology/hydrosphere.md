@@ -1,6 +1,6 @@
 ---
 layout: page
-title: hydrosphere : worldbuilding
+title: hydrosphere | worldbuilding
 permalink: /worldbuilding/planetology/hydrosphere/
 ---
 

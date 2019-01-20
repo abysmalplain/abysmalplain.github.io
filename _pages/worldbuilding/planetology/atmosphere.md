@@ -1,6 +1,6 @@
 ---
 layout: page
-title: atmosphere : worldbuilding
+title: atmosphere | worldbuilding
 permalink: /worldbuilding/planetology/atmosphere/
 ---
 
