@@ -6,4 +6,18 @@ permalink: /worldbuilding/astronomy/universe/
 
 # the universe
 
-Coming soon
+big bang nucleosynthesis
+
+the first stars
+
+stellar evolution
+
+stellar nucleosynthesis
+
+other types of nucleosynthesis
+
+galaxies
+
+larger structures
+
+cosmic medium

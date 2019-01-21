@@ -6,4 +6,12 @@ permalink: /worldbuilding/biology/life/
 
 # life
 
-Coming soon
+definition of life
+
+possible origins on earth and elsewhere
+
+some potential prerequisites
+
+definition of intelligence
+
+some potential prerequisites

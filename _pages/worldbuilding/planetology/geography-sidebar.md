@@ -1,7 +1,7 @@
 ---
 layout: page
 title: geography | worldbuilding
-permalink: /worldbuilding/planetology/geography/sidebar/
+permalink: /worldbuilding/planetology/geosphere/sidebar/
 ---
 
 # geography

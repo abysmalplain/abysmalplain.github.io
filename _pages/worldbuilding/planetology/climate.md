@@ -6,4 +6,17 @@ permalink: /worldbuilding/planetology/climate/
 
 # climate
 
-Coming soon
+tropical
+- rainforest
+- monsoon
+- savannah
+
+arid
+- desert
+- steppe
+
+temperate
+
+continental
+
+polar

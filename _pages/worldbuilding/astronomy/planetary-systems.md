@@ -6,4 +6,15 @@ permalink: /worldbuilding/astronomy/planetary-systems/
 
 # planetary systems
 
-Coming soon
+what kind of stars support planets
+
+formation of planetary systems
+
+what kinds of bodies exist in a system
+- definition of a planet
+- types of planets
+- satellites
+- asteroids
+- comets
+
+orbital mechanics
