@@ -16,6 +16,9 @@
    <meta name="theme-color" content="#ffffff">
 
    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Abhaya+Libre" rel="stylesheet">
+   <script type="text/javascript" async
+     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+   </script>
 
       <link rel="stylesheet" href="/css/page.css">
    </head>
@@ -37,13 +40,53 @@
 
          <h1 id="build-it">build it!</h1>
 
-<p>Coming soon</p>
+<h2 id="mathml">mathml</h2>
+<p>
+When
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>a</mi><mo>&#x2260;</mo><mn>0</mn>
+</math>,
+there are two solutions to
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>a</mi><msup><mi>x</mi><mn>2</mn></msup>
+  <mo>+</mo> <mi>b</mi><mi>x</mi>
+  <mo>+</mo> <mi>c</mi> <mo>=</mo> <mn>0</mn>
+</math>
+and they are
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>x</mi> <mo>=</mo>
+  <mrow>
+    <mfrac>
+      <mrow>
+        <mo>&#x2212;</mo>
+        <mi>b</mi>
+        <mo>&#x00B1;</mo>
+        <msqrt>
+          <msup><mi>b</mi><mn>2</mn></msup>
+          <mo>&#x2212;</mo>
+          <mn>4</mn><mi>a</mi><mi>c</mi>
+        </msqrt>
+      </mrow>
+      <mrow> <mn>2</mn><mi>a</mi> </mrow>
+    </mfrac>
+  </mrow>
+  <mtext>.</mtext>
+</math>
+</p>
+
+<h2 id="asciimath">asciimath</h2>
+
+<p>When `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and
+they are</p>
+<p style="text-align:center">
+  `x = (-b +- sqrt(b^2-4ac))/(2a) .`
+</p>
 
 
 
          <footer class="creative-commons">
    <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
-   <p>
+   <p>Code by <a href="https://github.com/abysmalplain">me</a>. Uses <a href="https://www.mathjax.org/">MathJax</a>. Heavily inspired by <a href="https://github.com/jez/tufte-pandoc-css">Tufte Pandoc CSS</a>, </p>
 </footer>
 
 

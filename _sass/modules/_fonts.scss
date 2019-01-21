@@ -2,7 +2,7 @@
   # FONTS
 \*------------------------------------*/
 
-$serif: Georgia, serif;
+$serif: /*"Abhaya Libre",*/ Georgia, serif;
 $sans-serif: "Helvetica Neue", Helvetica, sans-serif;
 $monospace: "Inconsolata", Courier, monospace;
 $display: "Abhaya Libre", Georgia, serif;
@@ -16,6 +16,8 @@ $header-font-family: $display;
 
 $nav-link-font-family: $display;
 
+$sidenote-font-family: $serif;
+
 $accent-font-family: $sans-serif;
 $utility-font-family: $monospace;
 
@@ -23,7 +25,7 @@ $utility-font-family: $monospace;
   # FONT-SIZE values
 \*------------------------------------*/
 
-$body-font-size: 100%;
+$body-font-size: 100%; /*106.25%;*/
 $h1-font-size: 3rem;
 $h2-font-size: 2.4rem;
 $h3-font-size: 1.563rem;
