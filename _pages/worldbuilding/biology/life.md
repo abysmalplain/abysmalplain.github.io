@@ -15,3 +15,5 @@ some potential prerequisites
 definition of intelligence
 
 some potential prerequisites
+
+put something about plant cognition here
